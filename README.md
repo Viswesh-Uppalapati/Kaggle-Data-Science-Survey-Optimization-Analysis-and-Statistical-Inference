@@ -1,5 +1,5 @@
 
-##  Survey Optimization using Kaggle Users Survey Data
+#  Survey Optimization using Kaggle Users Survey Data
 
 Author Contributions:
 
@@ -7,7 +7,7 @@ Author Contributions:
 
 **Viswesh Uppalapati:** Question 3, Advanced Analysis, and Conclusion
 
-# Introduction
+## Introduction
 
 With the recent boom in data, there has been a vast growth of data enthusiasts throughout
 the world. To understand the demographics of the growing data enthusiast community, Kaggle (a
@@ -54,7 +54,7 @@ questions:
     groups relatively the same? What about when we consider the level of education, repeat
     the prior experiment with men and women that have a higher level of education.
 
-# Data Processing
+## Data Processing
 
 Prior to conducting our analysis, data cleaning and processing was necessary in order to
 answer the questions presented above. The Kaggle dataset provided gave the duration time
@@ -72,7 +72,7 @@ points were maintained in the data set. Lastly, since much of the data is catego
 besides the duration column), one hot encoding was required to effectively model the data set. In
 later stages of the analysis, we one hot encoded each feature to achieve this modeling.
 
-# Analysis and Inference
+## Analysis and Inference
 
 **1. Graphical Methods: Visualizing the Demographics of the Survey**
 
@@ -83,6 +83,8 @@ gender, country, education, occupation title, programming experience, and also a
 level. To better understand the characteristics of individuals in the survey we decided to create
 bar charts of each of these demographic questions provided below:
 
+![pic 6](https://user-images.githubusercontent.com/50200188/186502551-7c4915dc-6b49-464a-a724-2f9b5e56715e.PNG)
+![pic 7](https://user-images.githubusercontent.com/50200188/186502586-cef4c90c-46a3-4448-8d51-403579a5dd3c.PNG)
 
 From these distributions a few observations can be made. For one, the data set primarily
 consists of Master’s students/grads who make little to no money and are between 18-29 years
@@ -128,6 +130,8 @@ bootstrapped samples from the original distribution of completion times to get a
 representation of the true population. We created a sample from the original distribution and
 bootstrapped it. Then we calculated the mean of each of the bootstrapped samples and graphed
 their distribution along with the normal distribution as shown in the graph on the right below.
+
+
 
 From the visualization on the right, it is evident that the sampled bootstrap means of
 completion time closely follow a normal distribution. Before we generated the corresponding
@@ -229,7 +233,7 @@ the absolute difference in median favored the alternative hypothesis, further st
 should be performed to verify the result as the result of the permutation test does not guarantee
 the discrepancy, but does evidence it.
 
-# Conclusion
+## Conclusion
 
 Our goal for this project is to analyze the different factors that have an impact on the
 survey completion times among different individuals from the data science community. In doing
