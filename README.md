@@ -130,7 +130,7 @@ representation of the true population. We created a sample from the original dis
 bootstrapped it. Then we calculated the mean of each of the bootstrapped samples and graphed
 their distribution along with the normal distribution as shown in the graph on the right below.
 
-
+![pic 10](https://user-images.githubusercontent.com/50200188/186503047-33a378e9-df87-40a3-93a5-b7ad80364849.PNG)
 
 From the visualization on the right, it is evident that the sampled bootstrap means of
 completion time closely follow a normal distribution. Before we generated the corresponding
@@ -138,12 +138,16 @@ estimates of survey completion time, we wanted to verify statistically that the 
 means actually followed a normal distribution. To do so, we used the KS-test on the bootstrapped
 sample and tested it against the normal distribution. The results of this test are shown below:
 
+![pic 11](https://user-images.githubusercontent.com/50200188/186503062-7fd8b1ac-7005-4b8e-a6cc-380ba511745d.PNG)
+
 The KS-test on the bootstrapped estimates and the standard normal distribution resulted
 in a p-value of around 0.541, which means that we fail to reject the null hypothesis that the
 distribution of the bootstrapped estimates approximately follows a normal distribution. Now that
 we have confirmed that the bootstrapped samples follow a normal distribution and don’t just
 appear to do so in the graphs, we generate the point and interval estimates from the bootstrapped
 estimates. The estimates are as follows:
+
+![pic 12](https://user-images.githubusercontent.com/50200188/186503078-365ebc39-04f2-4387-9c84-7a9eae2215b0.PNG)
 
 The point estimate of the average time taken to complete the survey among the
 participants came out to be around 8816.230 seconds with a standard error of 417.684 seconds.
@@ -197,6 +201,8 @@ be outliers, where some respondents take an unusually large amount of time to co
 survey. To move forward with the advanced analysis, we looked at the distribution of the gender
 of participants shown in the third chart below that is under the other two charts.
 
+![pic 13](https://user-images.githubusercontent.com/50200188/186503246-cc73c662-02ce-4b3c-8b37-5fdb35de4234.PNG)
+
 We found that over 98% of the participants of the survey are male and female. Therefore,
 we continued the rest of the advanced analysis on these two genders. Due to the discrepancy
 where a majority of the participants were male, we wanted to see whether either gender was
@@ -218,6 +224,8 @@ two gender groups.
 _Significance Level_ : 0.
 
 _Results_ :
+
+![pic 14](https://user-images.githubusercontent.com/50200188/186503262-1cea5dc3-8246-4416-ae1a-591571846d04.PNG)
 
 The result of the permutation test with the absolute difference in means came out to be a
 p-value of 0.773, which is much above the significance level. Therefore, we fail to reject the null
