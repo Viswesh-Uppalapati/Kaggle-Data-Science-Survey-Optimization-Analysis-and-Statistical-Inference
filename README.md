@@ -2,10 +2,12 @@
 ##  Survey Optimization using Kaggle Users Survey Data
 
 Author Contributions:
+
 **Vineet Tallavajhala:** Introduction, 1, 2, and 4
+
 **Viswesh Uppalapati:** Question 3, Advanced Analysis, and Conclusion
 
-**Introduction**
+# Introduction
 
 With the recent boom in data, there has been a vast growth of data enthusiasts throughout
 the world. To understand the demographics of the growing data enthusiast community, Kaggle (a
@@ -52,7 +54,7 @@ questions:
     groups relatively the same? What about when we consider the level of education, repeat
     the prior experiment with men and women that have a higher level of education.
 
-**Data Processing**
+# Data Processing
 
 Prior to conducting our analysis, data cleaning and processing was necessary in order to
 answer the questions presented above. The Kaggle dataset provided gave the duration time
@@ -69,6 +71,8 @@ other tasks. Both of these scenarios provide vital information for future modeli
 points were maintained in the data set. Lastly, since much of the data is categorical (everything
 besides the duration column), one hot encoding was required to effectively model the data set. In
 later stages of the analysis, we one hot encoded each feature to achieve this modeling.
+
+# Analysis and Inference
 
 **1. Graphical Methods: Visualizing the Demographics of the Survey**
 
@@ -225,7 +229,7 @@ the absolute difference in median favored the alternative hypothesis, further st
 should be performed to verify the result as the result of the permutation test does not guarantee
 the discrepancy, but does evidence it.
 
-**Conclusion**
+# Conclusion
 
 Our goal for this project is to analyze the different factors that have an impact on the
 survey completion times among different individuals from the data science community. In doing
