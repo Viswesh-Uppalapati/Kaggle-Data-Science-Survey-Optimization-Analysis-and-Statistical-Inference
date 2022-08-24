@@ -107,9 +107,8 @@ calculated. Similarly, this was conducted for each demographic using pivot table
 understand the underlying results of these pivot tables, multiple bar charts were created which is
 presented below:
 
-
-Country
-
+![pic 8](https://user-images.githubusercontent.com/50200188/186502709-c2ef05cf-e9b3-4657-8818-2a9cd0dc4b43.PNG)
+![pic 9](https://user-images.githubusercontent.com/50200188/186502724-05b62326-0fe2-4516-8cf4-8c18984b5be4.PNG)
 
 From these graphs many observations can be made including that for all the different
 demographic comparisons, women tend to have higher mean duration times. Furthermore,
