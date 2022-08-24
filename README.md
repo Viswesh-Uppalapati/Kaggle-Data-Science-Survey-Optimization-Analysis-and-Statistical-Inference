@@ -256,7 +256,7 @@ point and interval estimates for the average survey completion times. To do so w
 samples from the original data to generate samples that are closer to the average completion
 times of the true population. In doing so, we found unbiased estimators for the average survey
 completion times. Modeling the data by creating simple regressions for each feature, we
-determined the individual effect of different questions on duration time**.** The results of our model
+determined the individual effect of different questions on duration time. The results of our model
 were somewhat random, as all the columns had low R squared values. However, this behavior
 was expected since the vast amount of questions made it difficult to determine patterns in the
 data without overfitting. Overall, we found that the most important features were primarily when
